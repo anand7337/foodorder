@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+ 
+  
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.nav1{
+    box-shadow:0px 10px 15px -3px rgba(0,0,0,0.1);;
+    border: none;
+   background: #fff;
+    position:sticky !important;
+    left:0;
+   top:0;
+   right:0;
+   bottom: 0;
+   z-index:10;
+ 
+   
+    
+}
+.navbar-brand{
+    font-size: 30px;
+    color: black;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.navbar-nav{
+    margin-left: 50px;
+}
+.nav-link{
+    color:black;
+    font-weight: 600;
+    font-weight: bold;
+  margin-left: 50px;
+    font-size: 120%;
+    transition: 0.5s;
+    
+    
+}
+.nav-link:hover{
+   
+    color:rgb(180, 3, 3);
+    transition: 0.5s;
+    
+}
+
+/*
+
+.yani01:after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background:blue;
+    position: absolute;
+    left:0px;
+    bottom: -10px;
+    transition: 0.9s;
+    
+}
+.yani01:hover::after{
+         width:100%;
+}
+*/
+
+.dropdown-menu{
+    box-shadow: -10px 10px 50px -10px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);;
+   position: relative;
+   left: 150px;
+   
+ }
+ .dropdown-menu .dropdown-item{
+   font-size: 20px;
+   font-weight: 600;
+   
+ }
+ .dropdown-menu .dropdown-item:hover{
+   color:orange;
+   background-color: #fff;
+ 
+ }
+ 
+
+.toggle{
+    position: relative;
+   
+}
+
+
+
+#Home1{
+  background-image:url('https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg?size=626&ext=jpg&ga=GA1.2.1943026916.1660109456');
+  height: 100vh;
+  font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+.front{
+    padding-top: 30px;
+}
+.smile{
+    font-size: 30px;
+}
+.heading{
+    font-weight: 600;
+    font-size: 60px;
+}
+.heading1{
+    font-variant: small-caps;
+    font-weight: 600;
+    
+}
+
+a.now{
+    background-color:rgb(167, 48, 48);
+    padding:20px 20px 20px 30px;
+   border: none;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s;
+    border-radius: 10px;
+    
+}
+
+.now:hover{
+    border-end-start-radius: 30px;
+    border-start-start-radius: 30px;
+    transition: 0.5s;
+    text-decoration: none;
+    color:#fff;
+
+}
+
+.rotate{
+   position: absolute;
+   top:50%;
+   left:250px;
+    transform: translate(-50%,-50%);
+    animation: myfirst 50s infinite linear;
+
+}
+@keyframes myfirst{
+    0%{
+        transform: translate(-50%,-50%) rotate(0deg);
+    }
+   100%{
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
+
+
+
+
+/*Home2*/
+
+#Home2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.home2{
+    padding-left: 40px;
+    margin-right: 50x;
+}
+.heading3{
+    font-weight: 600;
+    color: rgb(212, 138, 0);
+}
+.heading4{
+    font-weight: 500;
+    font-size: 20px;
+}
+a.button1{
+    background-color:rgb(212, 138, 0);
+    padding:20px 20px 20px 30px;
+   border: none;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.button1:hover{
+    border-end-start-radius: 30px;
+    border-start-start-radius: 30px;
+    transition: 0.5s;
+    text-decoration: none;
+    color:#fff;
+}
+/*Home3*/
+
+.fw-bold{
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 8px;
+}
+
+.item{
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.8);
+    border-top:5px solid black;
+    border-bottom: 5px solid black;
+}
+.card img{
+    height:300px;
+    transition: 0.5s;
+}
+.card img:hover{
+    
+  transition: 0.5s;
+  transform: scale(0.9);
+ border-radius: 20px;
+}
+
+
+/* Hom4 */
+.carousel-inner img {
+    width: 100%;
+    height: 200px;
+
+  }
+  .carousel slide{
+    width: 1000px;
+    height: 300px;
+ 
+  }
+  /* Home5 */
+  #Home5{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: #999;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+  }
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 320px;
+   background: #fff;
+   border-radius: 2%;
+   transition: 0.5s;
+   margin-right: auto;
+  }
+  .swiper-slide:hover{
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.5);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .testimonialBox{
+    position: relative;
+    width: 100%;
+    padding: 40px;
+    padding-top: 90px;
+    color: #999;
+ 
+  }
+  .testimonialBox .quote{
+    position: absolute;
+    top:20px;
+    right: 30px;
+    width: 70px;
+  }
+  .testimonialBox .details{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .testimonialBox .details .imgBx{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+  }
+  .testimonialBox .details .imgBx img{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .testimonialBox .details h3{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #2196f3;
+    line-height: 1.1em;
+  }
+  .testimonialBox .details h3 span{
+    font-size: 12px;
+    color: #666;
+
+  }
+/* Home6 */
+
+.counter-up{
+    background:black;
+     min-height: 50vh;
+    align-items: center;
+    padding: 0 50px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+position: relative;
+padding-bottom: 100px;
+padding-top: 50px;
+}
+.counter-up::before{
+    position: absolute;
+    content: "";
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+}
+.counter-up .content{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.content .box{
+    width: calc(25% - 30px);
+    border: 1px dashed rgba(225,225,225,0.6);
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-top: 50px;
+ }
+ .content .box .icon{
+    font-size: 48px;
+    color: #e6e6e6;
+ }
+ .content .box .counter{
+    font-size: 50px;
+    color: #f2f2f2;
+    font-weight: 500;
+    font-family: sans-serif;
+ }
+ .content .box .text{
+    color: #ccc;
+    font-weight: 400;
+ }
+ @media (max-width:1036px){
+    .counter-up{
+        padding: 50px 50px 0 50px;
+    }
+    .content .box{
+        width: calc(50% - 30px);
+        margin-bottom: 50px;
+    }
+ }
+
+ .my-2 a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+ }
+.foo{
+    font-size: 130%;
+}
+.end a{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+.endimage{
+    position: absolute;
+    left:-20px;
+    top:65px;
+}
+
+.font-001{
+   display: flex;
+  justify-content: space-evenly;
+}
+.font-002{
+    font-size: 25px;
+}
+.font-00001{
+    transition: 0.5s;
+}
+.font-00001:hover{
+    color:black !important;
+    transition: 0.5s;
+}
+
+
+/*breakfast Home Page */
+
+
+/*Lunch page 1 */
+#Lunch1{
+background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://img.freepik.com/premium-photo/italian-food-with-ingredients_1220-4857.jpg?w=900');
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+background-attachment: fixed;
+}
+.lunch2{
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+.lunchfood{
+    color:orange;
+    font-style: italic;
+}
+.lunch3{
+    font-size: 120%;
+}
+.button-1{
+    text-decoration: none;
+    background-color: orange;
+    color:#fff;
+   padding: 20px;
+   font-weight: bold;
+   font-size: 20px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.button-1:hover{
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    color:black;
+    text-decoration: none;
+    transition: 0.5s;
+   
+   
+}
+
+.circle{
+    position: relative;
+    bottom: -10px;
+}
+.orderss{
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.partner{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+
+
+
+/*Launch*/
+
+.lunch001{
+    font-size: 30px;
+}
+.lunchh0001{
+    font-size: 18px;
+    font-style: italic;
+}
+.button-01{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: rgb(255, 179, 38);
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.button-01:hover{
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    color:black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+
+.Dinner0003{
+  
+    border: none;
+    left:1276px;
+    bottom:-80px;
+    position:fixed !important;
+   top:0;
+   top:25px;
+   z-index:10;
+   color:white;
+   font-weight: 600;
+  cursor: pointer;
+  }
+
+  .card1{
+   
+    font-weight: bold;
+  }
+  .card02{
+    border: none;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  }
